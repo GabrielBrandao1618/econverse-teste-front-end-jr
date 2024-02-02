@@ -1,11 +1,8 @@
 import "./app.scss";
+import { HomePage } from "./pages/home";
 
 function App() {
-  return (
-    <div>
-      <h1>Teste tecnico</h1>
-    </div>
-  );
+  return <HomePage />;
 }
 
 export default App;
