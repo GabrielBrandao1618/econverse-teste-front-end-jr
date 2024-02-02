@@ -1,8 +1,14 @@
 import "./app.scss";
+import { Header } from "./components/header";
 import { HomePage } from "./pages/home";
 
 function App() {
-  return <HomePage />;
+  return (
+    <>
+      <Header />
+      <HomePage />
+    </>
+  );
 }
 
 export default App;
