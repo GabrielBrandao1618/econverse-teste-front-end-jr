@@ -1,6 +1,7 @@
 import { WalkingIcon } from "../../../../components/icons/walkingIcon";
 import { ProductCard } from "../../../../components/productCard";
 import { ProductCategoryCard } from "../../../../components/productCategoryCard";
+import { products } from "../../../../data/products";
 import "./style.scss";
 
 export function ProductsSection() {
@@ -19,12 +20,15 @@ export function ProductsSection() {
         <hr />
       </div>
       <div className="products-list">
-        <ProductCard
-          name="Iphone 11 PRO MAX BRANCO 1"
-          descriptionShort="Iphone 11 PRO MAX BRANCO 1"
-          photoUrl="https://app.econverse.com.br/teste-front-end/junior/tecnologia/fotos-produtos/foto-iphone.png"
-          price={15000}
-        />
+        {products.map((product) => (
+          <ProductCard
+            descriptionShort={product.descriptionShort}
+            name={product.productName}
+            photoUrl={product.photo}
+            price={product.price}
+            key={product.productName}
+          />
+        ))}
       </div>
     </section>
   );

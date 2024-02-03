@@ -12,6 +12,11 @@
   .content {
     display: flex;
     flex-flow: column nowrap;
+    padding: {
+      bottom: 16px;
+      top: 9px;
+    }
+    gap: 7px;
     .name {
       font-weight: 300;
       font-size: 15px;

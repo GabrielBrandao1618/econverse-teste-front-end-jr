@@ -32,9 +32,13 @@
 
   .products-list {
     display: flex;
+    overflow-x: auto;
+    gap: 62px;
     padding: {
       left: 86px;
       right: 86px;
+      top: 20px;
+      bottom: 20px;
     }
   }
 }
