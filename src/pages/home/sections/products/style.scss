@@ -1,0 +1,12 @@
+.products {
+  .categories {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 53px;
+    padding: {
+      top: 34px;
+      left: 86px;
+    }
+    overflow-x: auto;
+  }
+}
