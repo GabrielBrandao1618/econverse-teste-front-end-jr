@@ -9,7 +9,7 @@ export function ProductsSection() {
   return (
     <section className="products">
       <div className="categories">
-        {new Array(10).fill(0).map((item) => (
+        {Array.from(Array(10).keys()).map((item) => (
           <ProductCategoryCard name="Esportes e fitness" key={item}>
             <WalkingIcon width={61} height={61} />
           </ProductCategoryCard>
@@ -23,7 +23,7 @@ export function ProductsSection() {
             name={product.productName}
             photoUrl={product.photo}
             price={product.price}
-            key={product.productName}
+            key={`${product.productName}${product.descriptionShort}`}
           />
         ))}
       </div>
