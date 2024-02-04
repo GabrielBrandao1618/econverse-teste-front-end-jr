@@ -2,12 +2,25 @@
   .categories {
     display: flex;
     flex-flow: row nowrap;
+    margin-bottom: 39px;
     gap: 53px;
     padding: {
       top: 34px;
+      bottom: 20px;
       left: 86px;
     }
     overflow-x: auto;
+    &::-webkit-scrollbar {
+      height: 3px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #f71963;
+      border-radius: 2px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: white;
+    }
   }
 
   .products-list {
@@ -19,6 +32,17 @@
       right: 86px;
       top: 20px;
       bottom: 20px;
+    }
+    &::-webkit-scrollbar {
+      height: 3px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #f71963;
+      border-radius: 2px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: white;
     }
   }
 }
