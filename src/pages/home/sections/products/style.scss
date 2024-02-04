@@ -9,26 +9,6 @@
     }
     overflow-x: auto;
   }
-  .products-title-container {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    gap: 34px;
-    padding: {
-      left: 151px;
-      right: 151px;
-    }
-
-    h2 {
-      color: #f71963;
-      font-size: 30px;
-      font-weight: 700;
-    }
-    hr {
-      flex: 1;
-      border: 1px solid #dedede;
-    }
-  }
 
   .products-list {
     display: flex;

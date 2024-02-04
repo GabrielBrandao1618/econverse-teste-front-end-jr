@@ -1,0 +1,22 @@
+.infos-section {
+  margin-top: 71px;
+  display: flex;
+  flex-flow: column nowrap;
+  .infos-row {
+    display: flex;
+    padding: {
+      left: 82px;
+      right: 82px;
+    }
+    justify-content: space-between;
+    gap: 90px;
+  }
+  .center-subtitle {
+    align-self: center;
+    margin-top: 4px;
+    color: #3f3f40;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}
