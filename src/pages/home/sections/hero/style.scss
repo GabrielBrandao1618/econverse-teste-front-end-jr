@@ -1,0 +1,55 @@
+.hero {
+  position: relative;
+  background-image: url("/img/hero-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: {
+    left: 92px;
+    top: 52px;
+    bottom: 50px;
+  }
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0));
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .content {
+    position: relative;
+    z-index: 2;
+    h2,
+    h3 {
+      color: #ffffff;
+      font-weight: 600;
+      max-width: 800px;
+      margin: 0;
+    }
+    h2 {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+    h3 {
+      font-size: 32px;
+    }
+    .view-product {
+      border: none;
+      border-radius: 5px;
+      background-color: #f71963;
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 18px;
+      padding: {
+        top: 16px;
+        bottom: 16px;
+        right: 63px;
+        left: 63px;
+      }
+      cursor: pointer;
+      margin-top: 35px;
+    }
+  }
+}

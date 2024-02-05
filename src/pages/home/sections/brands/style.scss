@@ -1,0 +1,21 @@
+.brands-section {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: {
+    left: 101px;
+    right: 101px;
+    bottom: 95px;
+  }
+  h2 {
+    color: #f71963;
+    font-size: 30px;
+    font-weight: 700;
+    align-self: center;
+  }
+  .brands-list {
+    margin-top: 52px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+}
