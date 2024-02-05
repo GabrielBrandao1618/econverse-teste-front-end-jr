@@ -7,6 +7,22 @@ export function Footer() {
         <div className="links">
           <div className="about">
             <h3>Sobre nós</h3>
+            <ul className="about-links">
+              <li>
+                <a>Conheça</a>
+              </li>
+              <li>
+                <a>Como comprar</a>
+              </li>
+              <li>
+                <a>Indicação e desconto</a>
+              </li>
+            </ul>
+            <div className="logos">
+              <img src="/img/icons/facebook.svg" alt="" />
+              <img src="/img/icons/instagram.svg" alt="" />
+              <img src="/img/icons/youtube.svg" alt="" />
+            </div>
           </div>
           <div className="infos">
             <h3>Informações úteis</h3>
@@ -33,6 +49,18 @@ export function Footer() {
           </div>
           <div className="payments">
             <h3>Formas de pagamento</h3>
+            <div className="logos">
+              <img src="/img/icons/visa.svg" alt="" />
+              <img src="/img/icons/elo.svg" alt="" />
+              <img src="/img/icons/alelo.svg" alt="" />
+              <img src="/img/icons/dinners.svg" alt="" />
+              <img src="/img/icons/ifood.svg" alt="" />
+              <img src="/img/icons/mastercard.svg" alt="" />
+              <img src="/img/icons/pix.svg" alt="" />
+              <img src="/img/icons/express.svg" alt="" />
+              <img src="/img/icons/ticket.svg" alt="" />
+              <img src="/img/icons/sodexo.svg" alt="" />
+            </div>
           </div>
         </div>
         <form className="subscribe" onSubmit={(e) => e.preventDefault()}>
